@@ -1,0 +1,28 @@
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f0f0f0;
+}
+
+.search-bar h1 {
+    margin: 1rem;
+}
+
+.search-bar input {
+    border-radius: 20px;
+    padding: 0.8rem;
+    font-size: 1rem;
+    width: 30%;
+    background-color: #f0f0f0;
+    border: none;
+    color: #444;
+    font-weight: 600;
+}
+
+.search-bar input:focus{
+    outline: none;
+    box-shadow: 2px 2px 15px #222;
+    transform: scale(1.01, 1.01);
+}

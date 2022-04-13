@@ -1,0 +1,24 @@
+.poke-card {
+    height: 180px;
+    width: 90%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+    background-color: #c04848;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 500;
+    box-shadow: 1px 1px 10px #222;
+}
+
+.poke-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: 	#f0f0f0;
+}
